@@ -1,3 +1,6 @@
+const { autoUpdater } = require("electron-updater");
+autoUpdater.checkForUpdatesAndNotify();
+
 const {
   app,
   BrowserWindow,

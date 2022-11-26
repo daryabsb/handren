@@ -6,3 +6,4 @@ files: [
   ]
 directories:
   output: "release"
+publish: ["github"]
