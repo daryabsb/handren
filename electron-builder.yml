@@ -1,0 +1,8 @@
+files: [
+    "main.js",
+    "preload.js",
+    "drag-and-drop.png",
+    ".output/public/**"
+  ]
+directories:
+  output: "release"
