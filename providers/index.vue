@@ -1,7 +1,7 @@
 <script setup>
 import { provide, readonly } from 'vue';
 
-const isSearchOpen = ref(true)
+const isSearchOpen = ref(false)
 const toggleSearch = () => isSearchOpen.value = !isSearchOpen.value
 
 provide("isSearchOpen", readonly(isSearchOpen))

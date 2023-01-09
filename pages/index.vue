@@ -43,16 +43,16 @@
     </Popover>
 
     <div class="py-6">
-      <div class="mx-auto max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-12 lg:gap-8 lg:px-8">
+      <div class="mx-auto max-w-3xl sm:px-6 lg:grid lg:max-w-full lg:grid-cols-12 lg:gap-8 lg:grid-rows-6 lg:px-8">
         <div class="hidden lg:col-span-3 lg:block xl:col-span-2">
-          <nav aria-label="Sidebar" class="sticky top-6 divide-y divide-gray-300">
+          <nav aria-label="Sidebar" class="sticky top-6 divide-y divide-zinc-500">
             <!-- Your content -->
           </nav>
         </div>
-        <main class="lg:col-span-9 xl:col-span-6">
+        <main class="lg:col-span-9 xl:col-span-9 border border-dashed border-zinc-500  row-span-6">
           <!-- Your content -->
         </main>
-        <aside class="hidden xl:col-span-4 xl:block">
+        <aside class="hidden xl:col-span-3 xl:block">
           <div class="sticky top-6 space-y-4">
             <!-- Your content -->
           </div>
